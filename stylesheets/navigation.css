@@ -1,5 +1,9 @@
+body{
+  margin:0;
+}
 .section-intro {
-  background-color: red;
+  background-color: black;
+  width: 100%;
 }
 
 .navigation-background {
@@ -12,15 +16,16 @@
 }
 .navigation-display {
   position: absolute;
-  top:0;
-  left: 0;
+  top:30px;
+  left:30px;
 }
 
 .navigation-item {
   text-decoration: none;
-  border: solid red 1px;
   display: block;
   position: relative;
   color:black;
-  font-size: 30px;
+  font-size: 45px;
+  font-family: 'Barrio', cursive;
+  margin-bottom: 18px;
 }
