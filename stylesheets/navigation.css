@@ -4,6 +4,7 @@ body{
 .section-intro {
   background-color: black;
   width: 100%;
+  height: 1000px;
 }
 
 .navigation-background {
@@ -28,4 +29,5 @@ body{
   font-size: 45px;
   font-family: 'Barrio', cursive;
   margin-bottom: 18px;
+  cursor: pointer;
 }
