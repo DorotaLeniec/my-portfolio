@@ -1,0 +1,33 @@
+.section-about-me, .section-contact, .section-projects , .section-skills{
+  height: 100vh;
+  background-color: #e0e0e0;
+}
+
+
+.section-title{
+  color:black;
+  font-weight: 100;
+  background-color: #ffe76e;
+  font-size: 40px;
+  font-family: 'Megrim', cursive;
+  margin-top:50px;
+  width: 300px;
+  text-align: center;
+  float: right;
+  position: relative;
+  padding-top:5px;
+  padding-bottom: 5px;
+}
+
+.title-triangle {
+  width: 0;
+  height: 0;
+
+  border-top: solid transparent 29px;
+  border-right: solid #ffe76e 28px;
+  border-bottom: solid #ffe76e 28px;
+  border-left: solid transparent 28px;
+  position:absolute;
+  left:-55px;
+  top:-1px;
+}
