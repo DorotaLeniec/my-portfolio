@@ -12,7 +12,7 @@ $('.close-button').on('click',function () {
     $('.navigation-item-link').animate({right: '0'}, 'slow');
     navigation_closed=false;
   } else {
-      $('.navigation-item-link').animate({right: '300px'});
+      $('.navigation-item-link').animate({right: '300px'},'fast');
       $('.left-line').css({'transform' : 'rotate(90deg)'});
       $('.additional-line').show().css({'transform' : 'rotate(90deg)'});
       $('.right-line').css({'transform' : 'rotate(-90deg) translate(10px,-6px)'});
