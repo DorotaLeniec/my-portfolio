@@ -1,0 +1,11 @@
+.navigation-bar {
+  border: solid black 2px;
+  width: 50%;
+  height: 50vh;
+}
+
+.navigation-item {
+  text-decoration: none;
+  border: solid red 1px;
+  display: block;
+}
