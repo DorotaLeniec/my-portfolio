@@ -10,10 +10,17 @@
   border-bottom: solid transparent 300px;
   border-left: solid yellow 300px;
 }
+.navigation-display {
+  position: absolute;
+  top:0;
+  left: 0;
+}
 
 .navigation-item {
   text-decoration: none;
   border: solid red 1px;
   display: block;
   position: relative;
+  color:black;
+  font-size: 30px;
 }
