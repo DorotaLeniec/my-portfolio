@@ -1,7 +1,24 @@
-.section-about-me, .section-contact, .section-projects , .section-skills{
+body {
+  background-attachment: fixed;
+  top:0;
+  left:0;
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/a0/e0/a2/a0e0a24d40014ee6f148dc60029f448c.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.section-intro {
+  height: 100vh;
+}
+.section-about-me, .section-projects , .section-skills{
   height: 100vh;
   background-color: #e0e0e0;
 }
+.section-contact {
+  height: 100vh;
+background-color: rgba(0,0,0, 0.8);
+ }
 
 
 .section-title{
@@ -24,10 +41,10 @@
   height: 0;
 
   border-top: solid transparent 29px;
-  border-right: solid #ffe76e 28px;
-  border-bottom: solid #ffe76e 28px;
-  border-left: solid transparent 28px;
+  border-right: solid #ffe76e 29px;
+  border-bottom: solid #ffe76e 29px;
+  border-left: solid transparent 29px;
   position:absolute;
-  left:-55px;
+  left:-56px;
   top:-1px;
 }
