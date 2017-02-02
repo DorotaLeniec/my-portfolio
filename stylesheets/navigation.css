@@ -3,6 +3,8 @@ body{
 }
 .section-intro {
   background-color: black;
+  background-image: url("https://c2.staticflickr.com/8/7666/17929541328_4fdc5364de_b.jpg");
+  background-repeat: no-repeat;
   width: 100%;
   height: 1000px;
 }
@@ -17,7 +19,7 @@ body{
 }
 .navigation-display {
   position: absolute;
-  top:30px;
+  top:10px;
   left:30px;
 }
 
@@ -30,4 +32,40 @@ body{
   font-family: 'Barrio', cursive;
   margin-bottom: 18px;
   cursor: pointer;
+}
+
+#navigation-open-button {
+  background-color: yellow;
+  color:black;
+  padding: 3px;
+  position: absolute;
+  top:30px;
+  left:30px;
+}
+.close-button-line {
+  display: inline-block;
+  padding: 0;
+  line-height: 0;
+  margin-left: 20px;
+}
+.navigation-close-button {
+  position: relative;
+
+}
+.left-line {
+  transform: rotate(45deg);
+  transition: 0.2s;
+  position: absolute;
+}
+.right-line {
+  transition: 0.2s;
+  transform: rotate(-45deg);
+}
+
+.stright-line {
+  transform: rotate(0deg);
+}
+.additional-line {
+top:10px;
+  display: none;
 }
