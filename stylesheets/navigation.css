@@ -1,11 +1,19 @@
-.navigation-bar {
-  border: solid black 2px;
-  width: 50%;
-  height: 50vh;
+.section-intro {
+  background-color: red;
+}
+
+.navigation-background {
+  width:0;
+  height:0;
+  border-top: solid yellow 300px;
+  border-right: solid transparent 300px;
+  border-bottom: solid transparent 300px;
+  border-left: solid yellow 300px;
 }
 
 .navigation-item {
   text-decoration: none;
   border: solid red 1px;
   display: block;
+  position: relative;
 }
