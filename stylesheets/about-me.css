@@ -1,5 +1,6 @@
 .section-about-me {
-  background-color: rgba(0,0,0,0.9);
+  background-image: url('http://i.imgur.com/f5Us7pG.png');
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow: 0 0 150px 55px black;
 }

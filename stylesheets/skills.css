@@ -1,0 +1,35 @@
+.my-skills {
+  padding-left: 30vw;
+}
+.one-skill {
+  display: inline-block;
+  padding:10px;
+}
+.one-skill img{
+  width: 60px;
+  height: 60px;
+}
+.skills-title {
+  padding-bottom: 10px;
+  margin-left:30vw;
+  font-weight: 800;
+  letter-spacing: 4px;
+  width: 40vw;
+  display: inline-block;
+  text-align: center;
+  color:#ffe76e;
+  font-size: 40px;
+  font-family:'Josefin Sans', sans-serif;
+}
+.skills-row {
+  text-align: center;
+  width: 40vw;
+}
+
+.skills-title.first {
+  margin-top:15vh;
+}
+
+.skills-title.second {
+  margin-top:7vh;
+}

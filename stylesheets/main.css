@@ -8,19 +8,27 @@ body {
   background-repeat: no-repeat;
   background-size:cover;
   max-width: 100%;
-  height: 100vw;
+  height: 100vh;
 }
 
 .section-intro {
   height: 100vh;
 }
 
-.section-about-me, .section-projects, .section-skills, .section-contact {
+.section-projects{
   height: 100%;
-  background-color: #e0e0e0;
+  background-color: #bdbdbd;
 }
 
+.section-about-me{
+  height: 110vh;
+}
 .section-contact {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.section-skills{
+  height: 120vh;
   background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -31,7 +39,7 @@ body {
   background-color: #ffe76e;
   font-size: 40px;
   font-family: 'Megrim', cursive;
-  margin-top: 50px;
+  margin-top: 20px;
   width: 300px;
   text-align: center;
   float: right;
