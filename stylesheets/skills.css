@@ -4,10 +4,13 @@
 .one-skill {
   display: inline-block;
   padding:10px;
+  z-index: 1000;
 }
 .one-skill img{
   width: 60px;
   height: 60px;
+  transition: 1s ease 0s;
+
 }
 .skills-title {
   padding-bottom: 10px;

@@ -6,17 +6,17 @@
 .navigation-background {
   width: 0;
   height: 0;
-  border-top: solid #ffe76e 220px;
-  border-right: solid transparent 220px;
-  border-bottom: solid transparent 220px;
-  border-left: solid #ffe76e 220px;
+  border-top: solid #ffe76e 200px;
+  border-right: solid transparent 200px;
+  border-bottom: solid transparent 200px;
+  border-left: solid #ffe76e 200px;
   transition: 0.9s;
 }
 
 .navigation-display {
   position: absolute;
   top: 2px;
-  left: 20px;
+  left: 8px;
 }
 
 .navigation-item {
@@ -24,9 +24,10 @@
   display: block;
   position: relative;
   color: black;
-  font-size: 30px;
+  font-size: 25px;
   font-family: 'Megrim', cursive;
-  margin-bottom: 18px;
+  margin-bottom: 14px;
+  margin-left:10px;
   cursor: pointer;
 }
 
@@ -65,4 +66,17 @@
 .close-button {
   margin: 0;
   font-size: 30px;
+}
+
+@media screen and (max-width: 1020px){
+ .navigation-background {
+   border-top: solid #ffe76e 170px;
+   border-right: solid transparent 170px;
+   border-bottom: solid transparent 170px;
+   border-left: solid #ffe76e 170px;
+ }
+
+  .navigation-item {
+    font-size: 20px;
+  }
 }
