@@ -1,11 +1,11 @@
 var navigation_closed = false;
 
 function closeNavigation() {
-  $('.navigation-item-link').animate({right: '300px'}, 200);
+  $('.navigation-item-link').animate({right: '200px'}, 200);
   $('.left-line').css({'transform': 'rotate(90deg)'});
   $('.additional-line').show().css({'transform': 'rotate(90deg)'});
   $('.right-line').css({'transform': 'rotate(-90deg) translate(10px,2px)'});
-  $('.navigation-background').css({'transform': 'translate(-220px,-220px)'});
+  $('.navigation-background').css({'transform': 'translate(-140px,-140px)'});
   navigation_closed = true;
 }
 
@@ -18,6 +18,9 @@ function openNavigation() {
   navigation_closed = false;
 }
 
+$('.navigation-item-link').on('click', function(){
+  closeNavigation();
+})
 
 $('.close-button').on('click', function () {
   if (navigation_closed) {
@@ -28,7 +31,7 @@ $('.close-button').on('click', function () {
 })
 
 $(document).ready(function(){
-  $('.navigation-item').click(function() {
+  $('.navigation-item-link').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
       && location.hostname == this.hostname) {
       var $target = $(this.hash);
@@ -37,7 +40,7 @@ $(document).ready(function(){
       if ($target.length) {
         var targetOffset = $target.offset().top;
         $('html,body')
-          .animate({scrollTop: targetOffset}, 1500);
+          .animate({scrollTop: targetOffset}, 1200);
         return false;
       }
     }

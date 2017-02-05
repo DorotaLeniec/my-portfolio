@@ -1,0 +1,60 @@
+.input-box {
+  display: block;
+}
+.contact-me {
+  display: inline-block;
+  width: 40%;
+  height: 50%;
+  border:solid white 3px;
+}
+
+.contact-me-social{
+  display: inline-block;
+  border: red solid 2px;
+  position: absolute;
+  top:3500px;
+  right: 0;
+
+}
+.contact-container {
+  border: red solid 1px;
+  height: auto;
+  width: auto;
+  padding-left:30vw;
+  padding-top: 20vh;
+}
+
+.input-box {
+  width: 60%;
+  color:#ffe76e;
+  border: #ffe76e 1px solid;
+  opacity:0.8;
+  padding:5px;
+  background-color: rgba(0,0,0,0.5);
+}
+.input-box:focus{
+  outline: none;
+}
+#message-input {
+  color:#8e8b8a;
+  height:150px;
+  writing-mode: horizontal-tb;
+}
+
+.social-link {
+  display: block;
+  border:white 1px solid;
+  color:#ffe76e;
+  padding:20px;
+}
+
+.contact-text {
+  padding:20px;
+  text-align: center;
+  color:#ffe76e;
+  border: solid #ffe76e 1px;
+  width: 50%;
+  margin-bottom: 100px;
+  font-size: 30px;
+  font-family: 'Josefin Slab', serif;
+}
