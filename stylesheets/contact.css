@@ -10,7 +10,7 @@
   text-align: center;
   color:#ffe76e;
   font-size: 30px;
-  font-family: 'Josefin Slab', serif;
+  font-family:'Josefin Sans', sans-serif;
 }
 .social-media {
 margin-top:20px;
@@ -18,4 +18,14 @@ margin-top:20px;
 
 .contact-text h2 {
   border-bottom: solid 1px #ffe76e;
+}
+
+.social-media .fa {
+  padding-left:20px;
+  color: #ffe76e;
+  transition:all 0.5s ease;
+}
+
+.social-media .fa:hover {
+  transform: scale(1.3);;
 }
