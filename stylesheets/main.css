@@ -2,8 +2,8 @@ body {
   background-attachment: fixed;
   top: 0;
   left: 0;
-  /*background-image: url('http://i.imgur.com/TnRy3ES.jpg');*/
-  background-image: url('http://i.imgur.com/RIbQ4b0.png');
+  background-image: url('http://i.imgur.com/TnRy3ES.jpg');
+  /*background-image: url('http://i.imgur.com/RIbQ4b0.png');*/
   /*background-image: url("https://s-media-cache-ak0.pinimg.com/originals/a0/e0/a2/a0e0a24d40014ee6f148dc60029f448c.jpg");*/
   background-repeat: no-repeat;
   background-size:cover;
@@ -16,7 +16,7 @@ body {
 }
 
 .section-about-me, .section-projects, .section-skills, .section-contact {
-  height: 100vh;
+  height: 100%;
   background-color: #e0e0e0;
 }
 
@@ -25,6 +25,7 @@ body {
 }
 
 .section-title {
+  z-index: 0;
   color: black;
   font-weight: 100;
   background-color: #ffe76e;
